@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.calculatorContainer {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: hsl(0, 0%, 10%);
+    border-radius: 12px;
+    max-width: 300px;
+    overflow: hidden;
+}
+
+.display {
+    text-align: right;
+    width: 100%;
+    padding: 15px;
+    font-size: 3em;
+    border: none;
+    color: whitesmoke;
+    background-color: hsl(0, 0%, 5%);
+}
+
+.calcuButtons {
+    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 4rem);
+    padding: 15px;
+}
+
+button {
+    border-radius: 25px;
+    width: 50px;
+    height:50px;
+    border: none;
+    background-color: hsl(0, 0%, 20%);
+    color: rgba(245, 245, 245, 0.979);
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.longWidth {
+   width: 200px;
+    
+}
+
+.rightAlign {
+    margin-left: 7.4em;
+}
+
+.grayButton {
+    background-color: hsl(0, 0%, 40%);
+}
+
+.orangeButton {
+    background-color: hsl(35, 100%, 50%);
+}
+
+button:hover {
+    background-color: hsl(0, 0%, 30%);
+}
+
+button:active {
+    background-color: hsl(0, 0%, 40%);
+}
+
+.orangeButton:hover {
+    background-color: hsl(35, 100%, 60%);
+}
+
+.orangeButton:active {
+    background-color: hsl(35, 100%, 70%);
+}

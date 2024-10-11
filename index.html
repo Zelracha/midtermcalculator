@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MIDTERM EXAM</title>
+</head>
+<body>
+    <div class="calculatorContainer">
+        <input type="text" id="display" class="display" readonly>
+        <div class="calcuButtons">
+            <button onclick="clearDisplay()" class="grayButton">C</button>
+            <button onclick="displayFunction('%')" class="grayButton">%</button>
+            <button onclick="displayFunction('.')" class="grayButton">.</button>
+            <button onclick="displayFunction('6')" class="orangeButton">/</button>
+            <button onclick="displayFunction('7')">7</button>
+            <button onclick="displayFunction('8')">8</button>
+            <button onclick="displayFunction('9')">9</button>
+            <button onclick="displayFunction('*')" class="orangeButton">*</button>
+            <button onclick="displayFunction('4')">4</button>
+            <button onclick="displayFunction('5')">5</button>
+            <button onclick="displayFunction('6')">6</button>
+            <button onclick="displayFunction('-')" class="orangeButton">-</button>
+            <button onclick="displayFunction('1')">1</button>
+            <button onclick="displayFunction('2')">2</button>
+            <button onclick="displayFunction('3')">3</button>
+            <button onclick="displayFunction('+')" class="orangeButton">+</button>
+            <button onclick="displayFunction('0')" class="longWidth">0</button>
+            <button onclick="calculateInput()" class="rightAlign orangeButton" >=</button>
+        </div>
+    </div>
+<script src="index.js"></script>
+</body>
+</html>
